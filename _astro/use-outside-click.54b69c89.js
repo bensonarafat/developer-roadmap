@@ -1,0 +1,1 @@
+import{r as o}from"./index.ed373d49.js";function u(t,n){o.useEffect(()=>{const e=s=>{!t?.current?.contains(s.target)&&n()};return document.addEventListener("mousedown",e),document.addEventListener("touchstart",e),()=>{document.removeEventListener("mousedown",e),document.removeEventListener("touchstart",e)}},[t])}export{u};

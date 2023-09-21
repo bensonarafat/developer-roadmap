@@ -1,0 +1,1 @@
+import{r as e}from"./index.ed373d49.js";function n(){const[t,a]=e.useState(null);return e.useEffect(()=>{const r=new URLSearchParams(window.location.search).get("t")||null;a(r)},[]),{teamId:t}}export{n as u};
